@@ -58,4 +58,4 @@ These scenarios describe different outcomes of the same user goal.
 
 **GitHub Repository:** https://github.com/liza051/library-requirements-analysis
 
-**Pull Request:** To be added after creating the final PR.
+**Pull Request:** https://github.com/liza051/library-requirements-analysis/pull/1

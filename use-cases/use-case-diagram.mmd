@@ -1,0 +1,34 @@
+
+flowchart LR
+    Reader(["Reader"])
+    Librarian(["Librarian"])
+
+    subgraph System["Library Reservation System"]
+        UC1(["Browse Book Catalog"])
+        UC2(["View Book Copy Availability"])
+        UC3(["Reserve a Book Copy"])
+        UC4(["View Reservation Status"])
+        UC5(["Request to Borrow a Book"])
+        UC6(["Request to Return a Book"])
+        UC7(["Manage Book Catalog"])
+        UC8(["Manage Book Copies"])
+        UC9(["Register a Book Loan"])
+        UC10(["Register a Book Return"])
+        UC11(["Manage Reservations"])
+    end
+
+    Reader --> UC1
+    Reader --> UC2
+    Reader --> UC3
+    Reader --> UC4
+    Reader --> UC5
+    Reader --> UC6
+
+    Librarian --> UC1
+    Librarian --> UC7
+    Librarian --> UC8
+    Librarian --> UC9
+    Librarian --> UC10
+    Librarian --> UC11
+
+   
